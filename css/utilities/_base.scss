@@ -1,0 +1,23 @@
+@use"./variables" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    color: $magenta;
+}
+body{
+    font-family:$font;
+}
