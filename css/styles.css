@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+.nav {
+  background-color: aqua;
+}
+.nav__container {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.nav ul {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.nav ul li {
+  padding: 3em;
+  font-size: 1em;
+}
+.nav ul a {
+  color: #000;
+}
+.nav ul a:hover {
+  color: #fff;
+}
+
+.hero__container {
+  background-image: url(../../images/tima.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
