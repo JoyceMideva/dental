@@ -1,12 +1,3 @@
- purity
-.about {
-  padding: auto;
-}
-.about__container {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: ro
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +6,7 @@
 
 .container {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 
 ul li {
@@ -34,23 +25,37 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.btn {
+  padding: 2em;
+}
+
+.about {
+  padding: auto;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+
 .nav {
   background-color: aqua;
 }
 .nav__container {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
   display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
 }
 .nav ul {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
   display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
 }
 .nav ul li {
-  padding: 3em;
+  padding: 2em;
   font-size: 1em;
 }
 .nav ul a {
@@ -61,22 +66,39 @@ body {
 }
 
 .hero {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
   display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 .hero__container {
-  background-image: url(../../images/tima.jpg);
+  background-image: url(../../images/backgound.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
   width: 100%;
 }
-
-.hero__slogun {
-  height: 50%;
-  width: 50%;
-  background-color: red;
+.hero div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+}
+.hero p {
+  font-size: 2em;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3em;
+  color: blue;
+}
+.hero button {
+  padding: 2em;
+  background-color: aqua;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
 }
