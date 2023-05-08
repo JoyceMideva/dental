@@ -1,0 +1,12 @@
+@use"../../utilities/mixins" as *;
+.about{
+    &__container{
+
+        @include flex(space-between,center);
+    }
+    padding: auto;
+}
+
+   
+
+
