@@ -1,3 +1,10 @@
+ purity
 @use"./utilities/base" as *;
 
 @use "./pages/about/about";
+
+
+@use"./utilities/base";
+@use"./sections/nav";
+@use"./sections/hero";
+
