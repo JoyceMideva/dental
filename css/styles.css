@@ -6,6 +6,7 @@
 
 .container {
   margin: 0 auto;
+  width: 100%;
 }
 
 ul li {
@@ -50,10 +51,23 @@ body {
   color: #fff;
 }
 
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
 .hero__container {
   background-image: url(../../images/tima.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  width: 100%;
+}
+
+.hero__slogun {
+  height: 50%;
+  width: 50%;
+  background-color: red;
 }
