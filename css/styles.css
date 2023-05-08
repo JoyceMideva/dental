@@ -1,3 +1,12 @@
+ purity
+.about {
+  padding: auto;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: ro
 * {
   margin: 0;
   padding: 0;
