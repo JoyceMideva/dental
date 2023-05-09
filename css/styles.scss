@@ -1,18 +1,8 @@
-
-
-@use"./utilities/base";
-@use"./sections/nav";
-@use"./sections/hero";
-@use "./pages/about/about";
-
-@use"./utilities/base" as *;
-@use "./pages/about/about";
-
-
 @use"./utilities/base";
 @use"./pages/layout/nav";
 @use"./pages/home/hero";
 @use"./pages/home/testimonials";
 @use"./pages/home/mission";
+@use "./pages/about/about";
 
 
