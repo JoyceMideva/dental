@@ -1,12 +1,59 @@
-@use"../../utilities/mixins" as *;
-.about{
-    &__container{
-
-        @include flex(space-between,center);
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+.about {
+  &__heading {
+    height: 30vh;
+    background-image: url(../../../images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    @include flex(center, center);
+    font-size: 4rem;
+    flex-wrap: wrap;
+    
+  }
+  &__content {
+    color: $dark-grayish;
+    margin: 3em 0;
+    &__centered {
+      width: 80%;
+      margin: 0 auto;
     }
+
+  }
+  &__paragraph{
+    margin: 2em 0;
 gap: 1em;
 }
 
-   
+.choose {
+  h2 {
+    text-align: center;
+    color: $dark-grayish;
+  }
+  &__container {
+    @include flex(space-between, center);
+    margin: 2em 0;
+    div {
+      text-align: center;
+    }
 
-
+    h3 {
+      text-align: center;
+      margin: 1em 0;
+    }
+    &__centered {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  &__card {
+    width: 30%;
+    box-shadow: 0px 0px 4px $lightgray;
+    padding: 1em;
+    color: $dark-grayish;
+  }
+}
+.btn__blue {
+  text-align: center;
+}
