@@ -202,3 +202,11 @@ body {
 .btn__blue {
   text-align: center;
 }
+
+.footer {
+  background-color: #00a5d6;
+}
+.footer__section {
+  padding: 2em;
+  margin: 2em;
+}
