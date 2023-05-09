@@ -204,9 +204,15 @@ body {
 }
 
 .footer {
-  background-color: #00a5d6;
+  width: 100%;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
 }
 .footer__section {
-  padding: 2em;
   margin: 2em;
+  padding: 2em;
 }
