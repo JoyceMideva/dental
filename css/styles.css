@@ -139,3 +139,13 @@ body {
   flex-direction: row;
   gap: 3em;
 }
+
+.mission {
+  background-color: rgb(0, 255, 255);
+}
+.mission__container {
+  margin-top: 2em;
+}
+.mission__container h3 {
+  color: #eea539;
+}
