@@ -17,12 +17,27 @@ a {
   text-decoration: none;
 }
 
+
 p {
   line-height: 1.5;
 }
 
 body {
   font-family: "Merriweather", serif;
+}
+
+.btn {
+  padding: 2em;
+}
+
+.about {
+  gap: 1em;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
 }
 
 .nav {
@@ -41,7 +56,7 @@ body {
   flex-direction: row;
 }
 .nav ul li {
-  padding: 3em;
+  padding: 2em;
   font-size: 1em;
 }
 .nav ul a {
@@ -53,16 +68,24 @@ body {
 
 .hero {
   display: flex;
+
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
 }
 .hero__container {
   background-image: url(../../images/tima.jpg);
+
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-image: url(../../images/backgound.jpg);
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+
 }
 
 .about__heading {
@@ -95,6 +118,40 @@ body {
   color: rgb(51, 51, 51);
 }
 .choose__container {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.hero div {
+  text-align: center;
+  padding: auto;
+}
+.hero p {
+  font-size: 2em;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3em;
+  color: rgb(255, 0, 255);
+}
+.hero button {
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  width: 10%;
+  margin-top: 2em;
+}
+
+.testimonials {
+  width: 100%;
+}
+.testimonials__container {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -121,4 +178,45 @@ body {
 
 .btn__blue {
   text-align: center;
+
+}
+.testimonials__container img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.testimonials h2 {
+  color: rgb(255, 0, 255);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2em;
+}
+.testimonials h3 {
+  color: #eea539;
+}
+.testimonials__stats {
+  width: 24%;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  gap: 2em;
+  background-color: #f4f7fb;
+  color: #000;
+  padding: 2em;
+}
+.testimonials__profile {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.mission {
+  background-color: rgb(0, 255, 255);
+}
+.mission__container {
+  margin-top: 2em;
+}
+.mission__container h3 {
+  color: #eea539;
 }
