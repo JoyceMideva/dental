@@ -1,17 +1,16 @@
-@use "../utilities/mixins" as *;
-@use"../utilities/variables" as*;
+@use "../../utilities/mixins" as *;
+@use"../../utilities/variables" as*;
 .hero{
     @include flex(center,center,column);
-    &__container{
         background-image:url(../../images/backgound.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 80vh;
         width: 100%;
-    }
+        @include flex(center,center,column);
+    
 div{
-    @include flex(center,center,column);
     text-align: center;
     padding: auto;
 }
@@ -21,7 +20,7 @@ p{
 }
 h1{
     font-size: 3em;
-    color: blue;
+    color:$magenta;
 }
 button{
     padding: 2em;
@@ -29,6 +28,8 @@ button{
     color: #fff;
     border-radius: 5px;
     border: none;
+    font-size: 1rem;
 }
+
 }
 
