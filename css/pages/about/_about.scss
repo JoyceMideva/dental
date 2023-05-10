@@ -3,7 +3,8 @@
 .about {
   &__heading {
     height: 30vh;
-    background-image: url(../../../images/about.jpg);
+    color: $magenta;
+    background-image: url(../../../images/purity.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -58,3 +59,30 @@ gap: 1em;
 .btn__blue {
   text-align: center;
 }
+h4{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5em;
+}
+.team{
+    &__container{
+        margin: 0 auto;
+        div{
+            @include flex(space-around, center);
+            margin:1em;
+            div{
+                @include flex(space-between, center,column);
+                
+
+            }
+        }
+        h5{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}
+h6{
+font-size: 2em;
+}
+
