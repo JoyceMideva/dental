@@ -1,0 +1,82 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.contact{
+    h1{
+        font-size: 4em; 
+        padding: 0.2em 0;
+        color: $light-blue
+        
+    }
+    &__container{
+        @include flex(space-around,center);
+        font-size: 1.5em;
+
+
+        
+    }
+    &__left{
+        &__icons{
+            @include flex(flex-start, center);
+            gap: 1em;
+            margin-top: 2em;
+            color:#fff;
+        }
+    }
+    &__right{
+        @include flex(center,center);
+
+        margin-top: 2em;
+    
+    }
+    .hero__button{
+        margin-top: 2em;
+    }
+    }
+    // input[type ="text"] input[type="email"] textarea{
+    //     padding: 2em;
+    //     margin: 2em;
+    // }
+    .contact__right{
+        width: 50%;
+    }
+
+    .contact__right input{
+   
+    padding: 1em;
+    width: 100%;
+    }
+
+    .contact__right input{
+        width: 100%;
+    }
+
+    .contact__content{
+        width: 10%;
+    }
+    
+    .submit__form{
+        width: 100%;
+    }
+    .submit__form p{
+        margin-bottom: 2em;
+    }
+    .btn-light-blue{
+    padding: 1em;
+    width: 30%;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    }
+    .container22{
+        height: 100vh;
+        width: 100%;
+        background-image: url("../../../images/backgound.jpg") ;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+  

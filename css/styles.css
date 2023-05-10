@@ -146,7 +146,8 @@ body {
 
 .about__heading {
   height: 30vh;
-  background-image: url(../../../images/about.jpg);
+  color: magenta;
+  background-image: url(../../../images/purity.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -201,4 +202,110 @@ body {
 
 .btn__blue {
   text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.5em;
+}
+
+.team__container {
+  margin: 0 auto;
+}
+.team__container div {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  margin: 1em;
+}
+.team__container div div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+}
+.team__container h5 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 2em;
+}
+
+.contact h1 {
+  font-size: 4em;
+  padding: 0.2em 0;
+  color: #00a5d6;
+}
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  font-size: 1.5em;
+}
+.contact__left__icons {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: 2em;
+  color: #fff;
+}
+.contact__right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 2em;
+}
+.contact .hero__button {
+  margin-top: 2em;
+}
+
+.contact__right {
+  width: 50%;
+}
+
+.contact__right input {
+  padding: 1em;
+  width: 100%;
+}
+
+.contact__right input {
+  width: 100%;
+}
+
+.contact__content {
+  width: 10%;
+}
+
+.submit__form {
+  width: 100%;
+}
+
+.submit__form p {
+  margin-bottom: 2em;
+}
+
+.btn-light-blue {
+  padding: 1em;
+  width: 30%;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.container22 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../../images/backgound.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
