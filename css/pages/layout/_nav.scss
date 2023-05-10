@@ -10,13 +10,15 @@
             @include flex(space-between,center);
             li{
                 padding: 2em;
-                font-size: 1em;
+                font-size: 1rem;
             
             } 
             a{
                 color: $black;
 &:hover{
-    color:#fff;
+    background-color: $white;
+    color:$magenta;
+    padding: 1em;
 }
             } 
         }

@@ -16,16 +16,17 @@ width: 100%;
   h2{
 color:$magenta;
 text-align: center;
-font-size: 1.5rem;
+font-size: 2rem;
 padding: 2em;
+text-shadow: 0 0 6px $dark-grayish;
   }
   h3{
     color: $orange;
   }
 
   &__stats {
-    width: 24%;
-    border: 2px solid $dark-grayish;
+    width: 23%;
+    box-shadow:0 0 5px $dark-grayish ;
     border-radius: 5px;
     gap: 2em;
     background-color: $lightgray;
