@@ -81,7 +81,7 @@ body {
 }
 .hero h1 {
   font-size: 3em;
-  color: magenta;
+  color: rgb(255, 0, 255);
 }
 .hero button {
   padding: 1em;
@@ -109,7 +109,7 @@ body {
   width: 50px;
 }
 .testimonials h2 {
-  color: magenta;
+  color: rgb(255, 0, 255);
   text-align: center;
   font-size: 1.5rem;
   padding: 2em;
@@ -219,4 +219,72 @@ body {
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
+}
+
+.services {
+  background-color: #00a5d6;
+  padding: 2em 0;
+}
+.services p {
+  text-align: center;
+  color: #fff;
+}
+.services h1 {
+  text-align: center;
+  color: rgb(255, 0, 255);
+}
+.services__stats {
+  padding: 2em;
+  border: 5px solid rgb(51, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.services__stats div {
+  border: 2px;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  background-color: #d3d3d3;
+  padding: 2em;
+  margin: 0 auto;
+}
+.services__stats h3, .services__stats p {
+  text-align: center;
+  line-height: 2;
+}
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+  padding: 2em 0;
+}
+.services button {
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 0, 255);
+  color: #fff;
+}
+
+.prevention {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../../images/brush.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
+.prevention__container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+.prevention button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1em;
 }
