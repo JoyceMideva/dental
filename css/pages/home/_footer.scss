@@ -1,0 +1,48 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+.footer{
+    // width: 100%;
+    background-color: $white;
+    margin-bottom: 2em;
+    
+    &__section{
+        width: 23%;
+        // padding: 1em;
+        color:$black;
+        // margin-top: 2em;
+        line-height: 2em;
+
+
+        
+    }
+    h3{
+        color: $magenta;
+    }
+    &__container{
+        @include flex(space-between,center);
+    }
+}
+
+.week__days{
+    
+    box-shadow: 2px 3px 5px 4px #fff;
+    height: 50%;
+    background-color: #fff;
+    margin-top: 2em;
+    line-height: 2em;
+
+}
+
+.fa-brands {
+    color:$aqua;
+    font-size: 2rem;
+}
+
+.fa-solid{
+    color: $aqua;
+    margin-right: 1em;
+}
+
+.crafts{
+    background-color: $magenta;
+}
