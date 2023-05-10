@@ -1,12 +1,20 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
 .footer{
-    width: 100%;
-    &__container{
-        @include flex(space-between, center);
-    }
+    // width: 100%;
+    background-color: $light-blue;
+    
     &__section{
-        margin: 2em;
-        padding: 2em;
+        width: 23%;
+        padding: 1em;
+        color:$black;
+
+        
+    }
+    h3{
+        color: $black;
+    }
+    &__container{
+        @include flex(space-between,center);
     }
 }

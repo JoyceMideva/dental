@@ -119,7 +119,7 @@ body {
 }
 .testimonials__stats {
   width: 24%;
-  border: 2px solid darkgray;
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 5px;
   gap: 2em;
   background-color: #d3d3d3;
@@ -204,15 +204,19 @@ body {
 }
 
 .footer {
-  width: 100%;
+  background-color: #00a5d6;
+}
+.footer__section {
+  width: 23%;
+  padding: 1em;
+  color: #000;
+}
+.footer h3 {
+  color: #000;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
-}
-.footer__section {
-  margin: 2em;
-  padding: 2em;
 }
