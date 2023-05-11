@@ -11,7 +11,6 @@
     @include flex(center, center);
     font-size: 4rem;
     flex-wrap: wrap;
-    
   }
   &__content {
     color: $dark-grayish;
@@ -20,16 +19,15 @@
       width: 80%;
       margin: 0 auto;
     }
-
   }
-  &__paragraph{
+  &__paragraph {
     margin: 2em 0;
-gap: 1em;
-}
-h2{
-  font-size: 3rem;
-  color:$magenta;
-}
+    gap: 1em;
+  }
+  h2 {
+    font-size: 3rem;
+    color: $magenta;
+  }
 }
 
 .choose {
@@ -60,36 +58,37 @@ h2{
     padding: 1em;
     color: $dark-grayish;
   }
-
-  h4{
-    text-align: center;
-    font-size: 2rem;
-    margin: 0.5em;
-}
 }
 .btn__blue {
   text-align: center;
 }
 
-.team{
-    &__container{
-        margin: 0 auto;
-        div{
-            @include flex(space-around, center);
-            margin:1em;
-            div{
-                @include flex(space-between, center,column);
-                
-
-            }
-        }
-        h5{
-            text-align: center;
-            font-size: 1.5rem;
-        }
+.team {
+    background-color: $light-blue;
+  &__container {
+    margin: 0 auto;
+    div {
+      @include flex(space-around, center);
+      margin: 1em;
+      div {
+        @include flex(space-between, center, column);
+        color: #fff;
+      }
     }
-}
-h6{
-font-size: 2em;
-}
+    h5 {
+      text-align: center;
+      font-size: 1.5rem;
+      
+    }
 
+    h4 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0.5em;
+      
+    }
+  }
+}
+h6 {
+  font-size: 2em;
+}
