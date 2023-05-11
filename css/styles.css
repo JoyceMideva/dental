@@ -499,3 +499,13 @@ h6 {
   color: rgb(255, 0, 255);
   text-align: center;
 }
+
+.pic {
+  background-color: aqua;
+}
+.pic__container__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}

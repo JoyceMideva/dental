@@ -22,5 +22,13 @@
         text-align: center;
     }
     }
-    
+    .pic{
+        background-color: aqua;
+        &__container{
+            &__container {
+                @include flex(space-between,center);
+              }
+            
+        }
+    }
    
