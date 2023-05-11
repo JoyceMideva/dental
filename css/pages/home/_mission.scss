@@ -1,12 +1,23 @@
 @use"../../utilities/variables"as*;
 .mission{
-    background-color:$light-blue;
+    background-image: url(../../../images/tima.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
     &__container{
 margin-top: 2em;
 padding: 2em;
 h3{
     color: $magenta;
+    text-align: center;
 }
+
+    }
+    p{
+        line-height: 2;
+        font-size: 2rem;
     }
 }
 

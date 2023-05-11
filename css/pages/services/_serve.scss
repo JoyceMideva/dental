@@ -1,0 +1,17 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+.serve{
+    
+    &__container{
+        @include flex(center,center,column);
+        box-shadow:0 0 6px $magenta ;
+        border:5px $aqua;
+        height: 20vh;
+        width: 20vw;
+        background-color:$lightgray;
+        gap: 2em;
+    }
+    h2{
+        color: $magenta;
+    }
+}
