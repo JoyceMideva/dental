@@ -55,7 +55,7 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../../../images/brush.jpg") no-repeat center center/cover;
-  height: 40vh;
+  height: 70vh;
 
   &__container{
     @include flex(space-between,center);
@@ -71,7 +71,7 @@
     }
     li{
         color: $white;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
   }
   button{

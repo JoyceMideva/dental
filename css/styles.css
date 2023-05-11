@@ -30,7 +30,7 @@ body {
 }
 
 .nav {
-  background-color: aqua;
+  background-color: lightgray;
 }
 .nav__container {
   display: flex;
@@ -139,7 +139,11 @@ body {
 }
 
 .mission {
-  background-color: #00a5d6;
+  background-image: url(../../../images/tima.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 .mission__container {
   margin-top: 2em;
@@ -147,6 +151,11 @@ body {
 }
 .mission__container h3 {
   color: rgb(255, 0, 255);
+  text-align: center;
+}
+.mission p {
+  line-height: 2;
+  font-size: 2rem;
 }
 
 .about__heading {
@@ -242,6 +251,9 @@ body {
   text-align: center;
   font-size: 2rem;
   margin: 0.5em;
+}
+.team__container img {
+  border-radius: 50%;
 }
 
 h6 {
@@ -419,7 +431,7 @@ h6 {
 
 .prevention {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/brush.jpg") no-repeat center center/cover;
-  height: 40vh;
+  height: 70vh;
 }
 .prevention__container {
   display: flex;
@@ -439,7 +451,7 @@ h6 {
 }
 .prevention__container li {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .prevention button {
   padding: 1em;
@@ -468,4 +480,29 @@ h6 {
   margin: 1em;
   border: none;
   border-radius: 5px;
+}
+
+.serve__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 6px rgb(255, 0, 255);
+  border: 5px rgb(0, 255, 255);
+  height: 50vh;
+  width: 20vw;
+  background-color: #fff;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+h2 {
+  color: rgb(255, 0, 255);
+  text-align: center;
+}
+
+li {
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 0, 255);
 }
