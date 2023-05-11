@@ -26,12 +26,17 @@
     margin: 2em 0;
 gap: 1em;
 }
+h2{
+  font-size: 3rem;
+  color:$magenta;
+}
 }
 
 .choose {
   h2 {
     text-align: center;
-    color: $dark-grayish;
+    color: $magenta;
+    font-size: 3rem;
   }
   &__container {
     @include flex(space-between, center);
@@ -55,15 +60,17 @@ gap: 1em;
     padding: 1em;
     color: $dark-grayish;
   }
-}
-.btn__blue {
-  text-align: center;
-}
-h4{
+
+  h4{
     text-align: center;
     font-size: 2rem;
     margin: 0.5em;
 }
+}
+.btn__blue {
+  text-align: center;
+}
+
 .team{
     &__container{
         margin: 0 auto;
