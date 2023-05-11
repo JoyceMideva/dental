@@ -109,6 +109,7 @@ body {
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  background-color: rgb(255, 0, 255);
 }
 .testimonials h2 {
   color: rgb(255, 0, 255);
@@ -117,15 +118,12 @@ body {
   padding: 2em;
   text-shadow: 0 0 6px rgb(51, 51, 51);
 }
-.testimonials h3 {
-  color: #eea539;
-}
 .testimonials__stats {
   width: 23%;
-  box-shadow: 0 0 5px rgb(51, 51, 51);
+  box-shadow: 0 0 5px rgb(255, 0, 255);
   border-radius: 5px;
   gap: 2em;
-  background-color: #d3d3d3;
+  background-color: #fff;
   color: #000;
   padding: 2em;
 }
@@ -134,17 +132,20 @@ body {
   justify-content: flex-start;
   align-content: center;
   flex-direction: row;
-  gap: 3em;
+  gap: 2em;
+}
+.testimonials h4 {
+  color: magenta;
 }
 
 .mission {
-  background-color: rgb(0, 255, 255);
+  background-color: #00a5d6;
 }
 .mission__container {
   margin-top: 2em;
 }
 .mission__container h3 {
-  color: #eea539;
+  color: #000;
 }
 
 .about__heading {
@@ -173,10 +174,15 @@ body {
   margin: 2em 0;
   gap: 1em;
 }
+.about h2 {
+  font-size: 3rem;
+  color: rgb(255, 0, 255);
+}
 
 .choose h2 {
   text-align: center;
-  color: rgb(51, 51, 51);
+  color: rgb(255, 0, 255);
+  font-size: 3rem;
 }
 .choose__container {
   display: flex;
@@ -202,15 +208,14 @@ body {
   padding: 1em;
   color: rgb(51, 51, 51);
 }
-
-.btn__blue {
-  text-align: center;
-}
-
-h4 {
+.choose h4 {
   text-align: center;
   font-size: 2rem;
   margin: 0.5em;
+}
+
+.btn__blue {
+  text-align: center;
 }
 
 .team__container {
@@ -356,7 +361,8 @@ h6 {
 }
 
 .crafts {
-  background-color: rgb(255, 0, 255);
+  background-color: #00a5d6;
+  padding: 1em;
 }
 
 .services {
@@ -439,4 +445,23 @@ h6 {
   color: #fff;
   border: none;
   font-size: 1em;
+}
+
+.call {
+  background-color: #00a5d6;
+}
+.call__container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+.call p {
+  font-size: 3rem;
+}
+.call button {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
 }
