@@ -139,9 +139,10 @@ body {
 }
 .mission__container {
   margin-top: 2em;
+  padding: 2em;
 }
 .mission__container h3 {
-  color: #eea539;
+  color: #000;
 }
 
 .about__heading {
@@ -195,7 +196,7 @@ body {
 }
 .choose__card {
   width: 30%;
-  box-shadow: 0px 0px 4px #d3d3d3;
+  box-shadow: 0px 0px 4px lightgray;
   padding: 1em;
   color: rgb(51, 51, 51);
 }
@@ -208,6 +209,13 @@ h4 {
   text-align: center;
   font-size: 2rem;
   margin: 0.5em;
+}
+
+h4 {
+
+.btn__blue {
+
+  text-align: center;
 }
 
 .team__container {
@@ -377,7 +385,7 @@ h6 {
   border-radius: 50%;
   height: 130px;
   width: 130px;
-  background-color: #d3d3d3;
+  background-color: lightgray;
   padding: 2em;
   margin: 0 auto;
 }
@@ -430,4 +438,23 @@ h6 {
   color: #fff;
   border: none;
   font-size: 1em;
+}
+
+.call {
+  background-color: #00a5d6;
+}
+.call__container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+.call p {
+  font-size: 3rem;
+}
+.call button {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
 }
