@@ -196,7 +196,7 @@ body {
 .about__heading {
   height: 30vh;
   color: rgb(255, 0, 255);
-  background-image: url(../../../images/purity.jpg);
+  background-image: url(../../../images/pexelsbackground.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -287,11 +287,9 @@ body {
   font-size: 2rem;
   margin: 0.5em;
 }
-
 .team__container img {
   border-radius: 50%;
 }
-
 
 h6 {
   font-size: 2em;
