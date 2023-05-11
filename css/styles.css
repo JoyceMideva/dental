@@ -143,9 +143,10 @@ body {
 }
 .mission__container {
   margin-top: 2em;
+  padding: 2em;
 }
 .mission__container h3 {
-  color: #000;
+  color: rgb(255, 0, 255);
 }
 
 .about__heading {
@@ -204,7 +205,7 @@ body {
 }
 .choose__card {
   width: 30%;
-  box-shadow: 0px 0px 4px #d3d3d3;
+  box-shadow: 0px 0px 4px lightgray;
   padding: 1em;
   color: rgb(51, 51, 51);
 }
@@ -214,10 +215,7 @@ body {
   margin: 0.5em;
 }
 
-h4 {
-
 .btn__blue {
-
   text-align: center;
 }
 
@@ -394,7 +392,7 @@ h6 {
   border-radius: 50%;
   height: 130px;
   width: 130px;
-  background-color: #d3d3d3;
+  background-color: lightgray;
   padding: 2em;
   margin: 0 auto;
 }
@@ -461,6 +459,7 @@ h6 {
 }
 .call p {
   font-size: 3rem;
+  color: rgb(51, 51, 51);
 }
 .call button {
   padding: 1em;
