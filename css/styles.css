@@ -253,6 +253,11 @@ body {
   margin: 0.5em;
 }
 
+.team__container img {
+  border-radius: 50%;
+}
+
+
 h6 {
   font-size: 2em;
 }
