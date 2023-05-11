@@ -20,6 +20,7 @@
     }
     &__container{
         @include flex(space-between,center);
+        flex-wrap: wrap;
     }
 }
 
@@ -49,4 +50,23 @@
 .crafts{
     background-color: $light-blue;
     padding: 1em;
+}
+
+// Tablet
+
+@media screen and (max-width:1200px){
+    .footer{
+        &__section{
+            width: 48%;
+        }
+    }
+}
+
+// Mobile
+@media screen and (max-width:600px){
+    .footer{
+        &__section{
+            width: 100%;
+        }
+    }
 }

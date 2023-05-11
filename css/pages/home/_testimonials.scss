@@ -2,10 +2,12 @@
 @use "../../utilities/variables" as *;
 
 .testimonials {
-width: 100%;
+
 
   &__container {
     @include flex(space-between, center);
+    flex-wrap: wrap;
+    gap:1em;
     
     img {
       border-radius: 50%;
@@ -44,3 +46,22 @@ text-shadow: 0 0 6px $dark-grayish;
   
 }
 
+// Media Query
+
+// Tablet
+@media screen and (max-width:1300px){
+  .testimonials {
+    &__stats{
+      width: 48%;
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width:624px){
+  .testimonials {
+    &__stats{
+      width: 100%;
+    }
+  }
+}
