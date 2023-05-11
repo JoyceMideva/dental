@@ -30,7 +30,7 @@ body {
 }
 
 .nav {
-  background-color: aqua;
+  background-color: lightgray;
 }
 .nav__container {
   display: flex;
@@ -139,7 +139,11 @@ body {
 }
 
 .mission {
-  background-color: #00a5d6;
+  background-image: url(../../../images/tima.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 .mission__container {
   margin-top: 2em;
@@ -147,6 +151,11 @@ body {
 }
 .mission__container h3 {
   color: rgb(255, 0, 255);
+  text-align: center;
+}
+.mission p {
+  line-height: 2;
+  font-size: 2rem;
 }
 
 .about__heading {
@@ -466,4 +475,20 @@ h6 {
   margin: 1em;
   border: none;
   border-radius: 5px;
+}
+
+.serve__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 6px rgb(255, 0, 255);
+  border: 5px rgb(0, 255, 255);
+  height: 20vh;
+  width: 20vw;
+  background-color: lightgray;
+  gap: 2em;
+}
+.serve h2 {
+  color: rgb(255, 0, 255);
 }
