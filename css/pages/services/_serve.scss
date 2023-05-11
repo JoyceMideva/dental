@@ -23,11 +23,15 @@
     }
     }
     .pic{
-        background-color: aqua;
+        padding: 2em;
         &__container{
             &__container {
                 @include flex(space-between,center);
               }
+            
+        }
+        div{
+            box-shadow: 0 0 5px $lightgray;
             
         }
     }

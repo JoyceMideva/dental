@@ -501,11 +501,14 @@ h6 {
 }
 
 .pic {
-  background-color: aqua;
+  padding: 2em;
 }
 .pic__container__container {
   display: flex;
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
+}
+.pic div {
+  box-shadow: 0 0 5px lightgray;
 }
