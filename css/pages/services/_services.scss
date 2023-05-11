@@ -1,0 +1,85 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.services {
+  background-color: $light-blue;
+  padding: 2em 0;
+  p {
+    text-align: center;
+    color: $white;
+  }
+
+  h1 {
+    text-align: center;
+    color: $magenta;
+  }
+  &__stats {
+    padding: 2em;
+    box-shadow: 0 0 5px $dark-grayish;
+    @include flex(center, center, column);
+    flex-wrap: wrap;
+
+    div {
+      border: 2px;
+      border-radius: 50%;
+      height: 130px;
+      width: 130px;
+      background-color: $lightgray;
+      padding: 2em;
+      margin: 0 auto;
+    }
+
+    h3, p{
+        text-align: center;
+        line-height: 2;
+    }
+
+  }
+  &__container {
+    @include grid(3, 2);
+    gap: 1em;
+    padding: 2em 0;
+  }
+  button{
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: $magenta;
+    color: $white;
+
+  }
+}
+.prevention {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../images/brush.jpg") no-repeat center center/cover;
+  height: 40vh;
+
+  &__container{
+    @include flex(space-between,center);
+    padding: 2em;
+    gap: 5em;
+    p{
+    color: $white;
+    font-size: 2rem;
+    }
+    h2{
+        font-size: 4rem;
+        color: $magenta;
+    }
+    li{
+        color: $white;
+        font-size: 1rem;
+    }
+  }
+  button{
+    padding: 1em;
+    border-radius: 5px;
+    background-color: $black;
+    color:$white;
+    border: none;
+    font-size: 1em;
+  }
+}

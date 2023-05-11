@@ -1,0 +1,95 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+.about {
+  &__heading {
+    height: 30vh;
+    color: $magenta;
+    background-image: url(../../../images/purity.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    @include flex(center, center);
+    font-size: 4rem;
+    flex-wrap: wrap;
+    
+  }
+  &__content {
+    color: $dark-grayish;
+    margin: 3em 0;
+    &__centered {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+  }
+  &__paragraph{
+    margin: 2em 0;
+gap: 1em;
+}
+h2{
+  font-size: 3rem;
+  color:$magenta;
+}
+}
+
+.choose {
+  h2 {
+    text-align: center;
+    color: $magenta;
+    font-size: 3rem;
+  }
+  &__container {
+    @include flex(space-between, center);
+    margin: 2em 0;
+    div {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 1em 0;
+    }
+    &__centered {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  &__card {
+    width: 30%;
+    box-shadow: 0px 0px 4px $lightgray;
+    padding: 1em;
+    color: $dark-grayish;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5em;
+}
+}
+.btn__blue {
+  text-align: center;
+}
+
+.team{
+    &__container{
+        margin: 0 auto;
+        div{
+            @include flex(space-around, center);
+            margin:1em;
+            div{
+                @include flex(space-between, center,column);
+                
+
+            }
+        }
+        h5{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}
+h6{
+font-size: 2em;
+}
+

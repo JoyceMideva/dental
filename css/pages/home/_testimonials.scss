@@ -1,0 +1,46 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.testimonials {
+width: 100%;
+
+  &__container {
+    @include flex(space-between, center);
+    
+    img {
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      background-color: $magenta;
+    }
+  }
+  h2{
+color:$magenta;
+text-align: center;
+font-size: 2rem;
+padding: 2em;
+text-shadow: 0 0 6px $dark-grayish;
+  }
+ 
+
+  &__stats {
+    width: 23%;
+    box-shadow:0 0 5px $magenta;
+    border-radius: 5px;
+    gap: 2em;
+    background-color: $white;
+    color:$black;
+    padding: 2em;
+    
+  }
+  &__profile {
+    @include flex(flex-start, center);
+    gap:2em;
+   
+  }
+  h4{
+    color: magenta;
+  }
+  
+}
+

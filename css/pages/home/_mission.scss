@@ -1,0 +1,12 @@
+@use"../../utilities/variables"as*;
+.mission{
+    background-color:$light-blue;
+    &__container{
+margin-top: 2em;
+padding: 2em;
+h3{
+    color: $magenta;
+}
+    }
+}
+
