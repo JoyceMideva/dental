@@ -166,7 +166,7 @@ body {
   }
 }
 .mission {
-  background-image: url(../../../images/tima.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/tima.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
