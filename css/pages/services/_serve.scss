@@ -12,14 +12,15 @@
         padding: 1em;
         margin-top: 2em;
        }
+       li{
+        font-size: 1.5rem;
+        text-align: center;
+    border-bottom: 1px $magenta;
     }
     h2{
         color: $magenta;
         text-align: center;
     }
-    li{
-        font-size: 1.5rem;
-        text-align: center;
-        border-bottom: 2px solid $magenta;
-    
     }
+    
+   
