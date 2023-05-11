@@ -21,3 +21,13 @@ h3{
     }
 }
 
+// Mobile
+
+@media screen and (max-width:522px){
+    .mission{
+        height: 77vh;
+        &__container{
+    padding: .2em;
+        }
+    }
+}
