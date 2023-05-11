@@ -492,14 +492,12 @@ h6 {
   padding: 1em;
   margin-top: 2em;
 }
-
-h2 {
-  color: rgb(255, 0, 255);
-  text-align: center;
-}
-
-li {
+.serve li {
   font-size: 1.5rem;
   text-align: center;
-  border-bottom: 2px solid rgb(255, 0, 255);
+  border-bottom: 1px rgb(255, 0, 255);
+}
+.serve h2 {
+  color: rgb(255, 0, 255);
+  text-align: center;
 }
