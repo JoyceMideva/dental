@@ -426,7 +426,7 @@ h6 {
 
 .prevention {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/brush.jpg") no-repeat center center/cover;
-  height: 40vh;
+  height: 70vh;
 }
 .prevention__container {
   display: flex;
@@ -446,7 +446,7 @@ h6 {
 }
 .prevention__container li {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .prevention button {
   padding: 1em;
@@ -484,11 +484,20 @@ h6 {
   flex-direction: column;
   box-shadow: 0 0 6px rgb(255, 0, 255);
   border: 5px rgb(0, 255, 255);
-  height: 20vh;
+  height: 50vh;
   width: 20vw;
-  background-color: lightgray;
-  gap: 2em;
+  background-color: #fff;
+  padding: 1em;
+  margin-top: 2em;
 }
-.serve h2 {
+
+h2 {
   color: rgb(255, 0, 255);
+  text-align: center;
+}
+
+li {
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 0, 255);
 }
