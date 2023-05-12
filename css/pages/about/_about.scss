@@ -11,6 +11,7 @@
     @include flex(center, center);
     font-size: 4rem;
     flex-wrap: wrap;
+    text-align: center;
   }
   &__content {
     color: $dark-grayish;
@@ -37,13 +38,15 @@
     font-size: 3rem;
   }
   &__container {
-    @include flex(space-between, center);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1em;
     margin: 2em 0;
     div {
       text-align: center;
     }
-
-    h3 {
+    Services h3 {
       text-align: center;
       margin: 1em 0;
     }
@@ -53,7 +56,6 @@
     }
   }
   &__card {
-    width: 30%;
     box-shadow: 0px 0px 4px $lightgray;
     padding: 1em;
     color: $dark-grayish;
@@ -64,12 +66,13 @@
 }
 
 .team {
-    background-color: $light-blue;
+  background-color: $light-blue;
   &__container {
     margin: 0 auto;
     div {
-      @include flex(space-around, center);
-      margin: 1em;
+      @include flex(center, center);
+      gap: 1em;
+      flex-wrap: wrap;
       div {
         @include flex(space-between, center, column);
         color: #fff;
@@ -78,20 +81,40 @@
     h5 {
       text-align: center;
       font-size: 1.5rem;
-      
     }
 
     h4 {
       text-align: center;
       font-size: 2rem;
       margin: 0.5em;
-     
     }
-    img{
-        border-radius: 50%;
+    img {
+      border-radius: 50%;
     }
   }
 }
 h6 {
   font-size: 2em;
 }
+
+// media queries
+
+@media (max-width: 960px) {
+  .choose {
+    &__container {
+      grid-template-columns: 1fr;
+      
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about{
+h1{
+  font-size: 4rem;
+}
+    h2{
+      font-size: 2rem;
+    }
+  }
+  }
