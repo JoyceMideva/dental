@@ -54,7 +54,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../../images/brush.jpg") no-repeat center center/cover;
+    url("https://joycemideva.github.io/dental/images/brush.jpg") no-repeat center center/cover;
   height: 70vh;
 
   &__container{
@@ -83,7 +83,11 @@
     font-size: 1em;
   }
 }
+<<<<<<< HEAD
 //  Media quaries
+=======
+// Media quaries
+>>>>>>> 0614541dcd5130a727a0c6d6c9ba7f909e088590
 // Tablet
 @media screen and (max-width:1380px){
   .services{
@@ -99,6 +103,7 @@
   .services{
     &__container{
       @include grid(1, 2);
+<<<<<<< HEAD
     
     }
   }
@@ -133,3 +138,8 @@ font-size: 1rem;
 
 
 
+=======
+    }
+  }
+}
+>>>>>>> 0614541dcd5130a727a0c6d6c9ba7f909e088590
