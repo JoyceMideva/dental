@@ -71,11 +71,19 @@
     border-radius: 10px;
     }
     .container22{
-        height: 100vh;
+        
         width: 100%;
         background: linear-gradient(rgba(0, 0, 0, .6) , rgba(0, 0, 0, .6)), url("../../../images/backgound.jpg") no-repeat center center/cover;
     
     
     }
 
-  
+    //media queries
+
+    @media (max-width: 826px){
+        .contact{
+            &__container{
+                @include flex(space-around,center,column)
+            }
+        }
+    }
