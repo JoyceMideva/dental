@@ -74,7 +74,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://joycemideva.github.io/dental/images/backgound.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://joycemideva.github.io/dental/images/backgound.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -477,7 +477,7 @@ h6 {
 }
 
 .prevention {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/brush.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://joycemideva.github.io/dental/images/brush.jpg") no-repeat center center/cover;
   height: 70vh;
 }
 .prevention__container {
