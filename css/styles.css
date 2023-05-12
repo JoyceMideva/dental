@@ -536,20 +536,6 @@ h6 {
     padding: 0.5em;
   }
 }
-@media screen and (max-width: 1380px) {
-  .services__container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 750px) {
-  .services__container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
 .call {
   background-color: #00a5d6;
 }
