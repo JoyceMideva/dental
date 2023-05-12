@@ -546,6 +546,9 @@ h6 {
   .prevention__container li {
     font-size: 0.5em;
   }
+  .prevention__container button {
+    padding: 0.5em;
+  }
 }
 @media screen and (max-width: 1380px) {
   .services__container {
