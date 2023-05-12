@@ -83,3 +83,22 @@
     font-size: 1em;
   }
 }
+// Media quaries
+// Tablet
+@media screen and (max-width:1380px){
+  .services{
+    &__container{
+      @include grid(2, 2);
+    }
+  }
+}
+  
+
+// mobile
+@media screen and (max-width:750px){
+  .services{
+    &__container{
+      @include grid(1, 2);
+    }
+  }
+}
